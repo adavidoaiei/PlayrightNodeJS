@@ -12,13 +12,26 @@ Acest proiect folosește Playwright pentru a automatiza căutarea hotelurilor pe
 
 ## Utilizare
 
-Rulează scriptul pentru a căuta hoteluri și a salva un screenshot cu rezultatele:
 
+## Utilizare
+
+Scriptul poate automatiza căutări pe diferite site-uri:
+
+### 1. Căutare hoteluri pe litoralulromanesc.ro
 ```bash
 node playright.js
 ```
-
 Va fi generat fișierul `hoteluri_search.png` cu rezultatele căutării.
+
+### 2. Căutare laptop-uri pe olx.ro
+Modifică scriptul pentru a căuta laptop-uri pe OLX (deja implementat):
+```bash
+node playright.js
+```
+Va fi generat fișierul `olx_laptopuri.png` cu rezultatele căutării.
+
+### 3. Căutare pe Google
+Scriptul poate fi adaptat pentru a căuta pe Google și a salva rezultatele ca screenshot.
 
 ## Fișiere
 
